@@ -214,6 +214,7 @@
     "viewDataBase": "查看数据库",
     "referencePage": "这个 {name} 正在被引用",
     "addBlockBelow": "在下面添加一个块",
+    "genSummary": "生成摘要",
     "urlLaunchAccessory": "在浏览器中打开",
     "urlCopyAccessory": "复制链接"
   },
@@ -224,11 +225,29 @@
     "private": "私人的",
     "workspace": "工作区",
     "favorites": "收藏夹",
+    "clickToHidePrivate": "点击隐藏私人空间<inlang-LineFeed>您在此处创建的页面仅对您可见",
+    "clickToHideWorkspace": "点击隐藏工作区<inlang-LineFeed>您在此处创建的页面对每个成员都可见",
     "clickToHidePersonal": "点击隐藏个人部分",
     "clickToHideFavorites": "单击隐藏收藏夹栏目",
     "addAPage": "添加页面",
     "addAPageToPrivate": "添加页面到私人空间",
-    "recent": "最近的"
+    "addAPageToWorkspace": "将页面添加到工作区",
+    "recent": "最近的",
+    "today": "今天",
+    "thisWeek": "本周",
+    "others": "其他",
+    "justNow": "现在",
+    "minutesAgo": "{count} 分钟前",
+    "lastViewed": "上次查看",
+    "favoriteAt": "已收藏于",
+    "emptyRecent": "没有最近文件",
+    "emptyRecentDescription": "当您查看文档时，它们将显示在这里以便于检索",
+    "emptyFavorite": "没有收藏文档",
+    "emptyFavoriteDescription": "开始探索并收藏文档。它们将列在这里以便快速访问！",
+    "removePageFromRecent": "从最近页面中删除该页面吗？",
+    "removeSuccess": "删除成功",
+    "favoriteSpace": "收藏夹",
+    "RecentSpace": "最近"
   },
   "notifications": {
     "export": {
@@ -244,6 +263,7 @@
   },
   "button": {
     "ok": "OK",
+    "confirm": "确认",
     "done": "完成",
     "cancel": "取消",
     "signIn": "登录",
@@ -266,6 +286,7 @@
     "update": "更新",
     "share": "分享",
     "removeFromFavorites": "从收藏夹中",
+    "removeFromRecent": "从最近页面删除",
     "addToFavorites": "添加到收藏夹",
     "rename": "重命名",
     "helpCenter": "帮助中心",
@@ -283,6 +304,7 @@
     "signInGoogle": "使用 Google 账户登录",
     "signInGithub": "使用 Github 账户登录",
     "signInDiscord": "使用 Discord 账户登录",
+    "more": "更多",
     "Done": "完成",
     "Cancel": "取消",
     "OK": "确认"
@@ -309,6 +331,21 @@
   },
   "settings": {
     "title": "设置",
+    "accountPage": {
+      "menuLabel": "我的账户",
+      "title": "我的账户",
+      "description": "自定义您的个人资料，管理帐户安全和 AI API 密钥，或登录您的帐户。",
+      "general": {
+        "title": "帐户名称和个人资料图片",
+        "changeProfilePicture": "更改个人资料图片"
+      },
+      "email": {
+        "title": "电子邮箱",
+        "actions": {
+          "change": "更改电子邮箱"
+        }
+      }
+    },
     "menu": {
       "appearance": "外观",
       "language": "语言",
